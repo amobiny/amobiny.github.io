@@ -75,7 +75,7 @@ very padded segment">
 
           <h2 class="ui center aligned header">Biography</h2>
         <p style="text-align:justify">
-             	I am an ECE Ph.D. student at University of Houston, currently working as a research assistant at HULA Lab and fellow at the Center for Advanced
+             	I am an ECE Ph.D. student at the University of Houston, currently working as a research assistant at HULA Lab and fellow at the Center for Advanced
 		 Computing and Data Science (CACDS).
 		 My research is mainly focused on Machine Learning, Deep Learning, Reinforcement Learning and their applications in Computer Vision and Natural Language Processing. 
 		To find more information about my research topics and other experiences, <a href="./PDFs/resume.pdf">see my Resume</a>.
@@ -88,6 +88,7 @@ very padded segment">
         <p style="text-align:justify">
 		<ul style="text-align:justify">
 		<!-- creating an ordered list -->
+			<li>Our workshop on <b>"TensorFlow for Biomedical Research"</b> will be held on January 18th, 2019 in UH-CACDS. Thanks to out sponsor <b> Helwett-Packard Enterprise </b>.</li>
 			<li>Our paper titled <b>"Fast CapsNet for Lung Cancer Screening"</b> is accepted to top conference in medical imaging (MICCAI'2018).</li>
 			<li>Our mini-workshop named <b>"Deep Learning in TensorFlow"</b> will be held on April 30th at the Center for Advanced Computing and Data Science (CACDS). 
 				<a href="http://www.easy-tensorflow.com/workshops#deep-learning-in-tensorflow-center-for-advanced-computing-and-data-science-spring-2018">More info</a>.</li>
@@ -509,7 +510,7 @@ complexity overhead of running sophisticated time synchronization protocol.
       <div class="meta">
       </div>
 	<div class="label">
-	 <img class="ui image" src="./Resources/cell.jpg">
+	 <img class="ui image" src="./Resources/cell.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
@@ -531,6 +532,60 @@ complexity overhead of running sophisticated time synchronization protocol.
   </div>
 
 
+  <div class="ui card">
+    <div class="content">
+      <div class="header">Semantic Segmentation of Organs from CT Scans</div>
+      <div class="meta">
+      </div>
+	<div class="label">
+	 <img class="ui image" src="./Resources/organ_seg.png">
+      	</div>
+      <div class="description">
+        <p style="text-align:justify">
+        We're working on a novel 3D fully-convolutional network for automatic segmentation of anatomical structures on 3D CT images.
+        <p style="text-align:justify">
+ 	The proposed architecture accomplishes an end-to-end, voxel-wise multiple-class 
+	classification to map each voxel in a CT image directly to an anatomical label using very few samples. This is often a necessity in biomedical domain where data collection and annotation is expensive and time-consuming.
+        </p>
+	<p style="text-align:justify">
+        Joint work with <a href="https://www.mdanderson.org/">MD Anderson Cancer Center</a>.
+        </p>
+      </div>
+    </div>
+    <div class="extra content">
+      <a class="tiny ui left floated button" href="https://github.com/amobiny/CT_Semantic_Segmentation">
+      <i></i> CODE
+      </a>
+    </div>
+  </div>
+
+  <div class="ui card">
+    <div class="content">
+      <div class="header">DropConnect for Model Uncertainty Estimation</div>
+      <div class="meta">
+      </div>
+	<div class="label">
+	 <img class="ui image" src="./Resources/uncertainty.png">
+      	</div>
+      <div class="description">
+        <p style="text-align:justify">
+        Popular deep learning models created today produce a point estimate but not an uncertainty value. In classification models, the probability vector obtained at the end of the pipeline (the softmax output) is often 		erroneously interpreted as model confidence. However, a model can be uncertain in its predictions even with a high softmax output. Understanding if the model is under-confident or falsely over-confident can help reasoning about the model.
+        </p>
+	<p style="text-align:justify">
+	In this project, we introduce <b>"Sampling DropConnect"</b> as a practical method to estimate model uncertainty: what the model doesn't know due to lack of training data.
+        </p>
+	<p style="text-align:justify">
+        Joint work with <a href="https://www.hvnguyen.com/"> Hien Van Nguyen</a>.
+        </p>
+      </div>
+    </div>
+    <div class="extra content">
+      <a class="tiny ui left floated button" href="https://github.com/amobiny/Apoptosis_Project">
+      <i></i> CODE
+      </a>
+    </div>
+  </div>
+
 </div>
 
 
@@ -542,7 +597,7 @@ complexity overhead of running sophisticated time synchronization protocol.
 
 <div class="ui stripe very padded vertical segment">
 
-Last updated September 24th, 2018.
+Last updated December 12th, 2018.
 
 </div>
 
