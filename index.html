@@ -480,7 +480,7 @@ very padded segment">
 
   <div class="ui card">
     <div class="content">
-      <div class="header">Text-Independent Speaker Verification Using Long Short-Term Memory Networks</div>
+      <div class="header">Text-Independent Speaker Verification with LSTM</div>
 
       <div class="meta">
         <span>ArXiv 2018</span>
@@ -490,7 +490,7 @@ very padded segment">
       	</div>
       <div class="description">
         <p style="text-align:justify">
-        In this paper, an architecture based on Long Short-Term Memory Networks has been proposed for the text-independent scenario which is aimed to capture the
+        In this paper, an architecture based on Long Short-Term Memory Networks has been proposed for the text-independent scenario and to capture the
 	temporal speaker-related information by operating over traditional speech features. An LSTM architecture is trained to create a discrimination space
 	for validating the match and non-match pairs for speaker verification.
         </p>
@@ -503,12 +503,12 @@ very padded segment">
     <div class="extra content">
         
           <a class="tiny ui left floated button" href="https://arxiv.org/pdf/1805.00604.pdf">
-            </i> PDF
+            </i> Paper
           </a>
-          <a class="tiny ui left floated button" href="https://github.com/amobiny/NTM_tensorflow">
-            </i> CODE
+          <a class="tiny ui left floated button" href="https://github.com/amobiny/speaker_verif">
+            </i> Code
           </a>
-          <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:XMgcTnq3gQwJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAW5hdt6jsWzNQ3zp7W0oauIHKAo5XXIKL&scisf=4&ct=citation&cd=-1&hl=en">
+          <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:XMgcTnq3gQwJ:scholar.google.com/&output=citation&scisdr=CgUAeQcTENW1hxMJHVE:AAGBfm0AAAAAXuAMBVGqxY8l4rFwB0VHwt7OpxjXk6K1&scisig=AAGBfm0AAAAAXuAMBQsizIWENUyu0DmYn0UOsFfYpivY&scisf=4&ct=citation&cd=-1&hl=en">
             </i> BibTex
           </a>
         
@@ -523,13 +523,14 @@ very padded segment">
       <div class="header">Radiologist-Friendly and Automatic Lung Cancer Screening Using Memory Recurrent Networks</div>
 
       <div class="meta">
-        <span>Submitted to IEEE Transactions on Medical Imaging</span>
+        <span>Submitted to Nature Dcientific Reports</span>
       </div>
 	<div class="label">
 	 <img class="ui image" src="./Resources/tmi.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
+	<br>
 		Most of existing computer aided diagnosis (CAD)
 		systems follow a rigid paradigm where the classifier’s decision
 		function is optimized during the training phase, and fixed during
@@ -537,24 +538,19 @@ very padded segment">
 		as they do not allow clinicians to provide input. They are also
 		unable to cope with the perpetual changes in data distribution
 		caused by different sensing technologies, imaging protocols, and
-		patient populations. To address these shortcomings, this paper
-		proposes a novel CAD model capable of incorporating expert
+		patient populations. We proposed a novel CAD model capable of incorporating expert
 		domain knowledge in real-time to improve its decision function.
         </p>
 
         <p>
-        Joint work with <a href="https://www.hvnguyen.com/">Hien Van Nguyen</a>, <a href="http://houstonrad.com/portfolio-items/supratik-moulik-m-d/">Supratik K. Moulik</a>, 
-	<a href="https://faculty.mdanderson.org/profiles/naveen_garg.html">Naveen Garg</a> and <a href="https://faculty.mdanderson.org/profiles/carol_wu.html">Carol C. Wu</a>..
+        Joint work with <a  href="https://www.mdanderson.org/">MD Anderson Cancer Center</a>.
         </p>
       </div>
     </div>
     <div class="extra content">
         
-          <a class="tiny ui left floated button" href="./PDFs/jour3.pdf">
-            </i> ABSTRACT
-          </a>
           <a class="tiny ui left floated button" href="https://github.com/amobiny/NTM_tensorflow">
-            </i> CODE
+            </i> Code
           </a>
         
     </div>
@@ -564,57 +560,113 @@ very padded segment">
 
   <div class="ui card">
     <div class="content">
-      <div class="header">Semantic Segmentation of Organs from CT Scans</div>
+      <div class="header">MC-DropConnect to estimate DNN model uncertainty</div>
       <div class="meta">
       </div>
+
+      <div class="meta">
+        <span>ArXiv 2019</span>
+      </div>
+	<br>
 	<div class="label">
-	 <img class="ui image" src="./Resources/organ_seg.png">
+	 <img class="ui image" src="./Resources/mcdropconnect.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
-        We're working on a novel 3D fully-convolutional network for automatic segmentation of anatomical structures on 3D CT images.
-        <p style="text-align:justify">
- 	The proposed architecture accomplishes an end-to-end, voxel-wise multiple-class 
-	classification to map each voxel in a CT image directly to an anatomical label using very few samples. This is often a necessity in biomedical domain where data collection and annotation is expensive and time-consuming.
+	<br>
+        	In domains where safety is highly critical, an erroneous decision made by an AI system can result in serious consequences. Thus, knowing what DNN-based AI models do not know is desirable to increase the safety of deep learning technology in sensitive applications. 
+        </p>
+		<p style="text-align:justify">
+		We proposed MC-DropConnect, a generalization over the so-called MC-Dropout method which can be used as a tool
+		to represent the model uncertainty with little change in the overall model structure or computational cost. We
+also propose new metrics to quantify the uncertainty estimates.
+This enables an objective comparison between MC-DropConnect
+and prior approaches.
         </p>
 	<p style="text-align:justify">
-        Joint work with <a href="https://www.mdanderson.org/">MD Anderson Cancer Center</a>.
+        Joint work with <a href="https://www.hvnguyen.com/">HULA Team</a>.
         </p>
       </div>
     </div>
     <div class="extra content">
-      <a class="tiny ui left floated button" href="https://github.com/amobiny/CT_Semantic_Segmentation">
-      <i></i> CODE
+      <a class="tiny ui left floated button" href="https://arxiv.org/pdf/1906.04569.pdf">
+      <i></i> Paper
+      </a>
+      <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:RzGDhKnpxeMJ:scholar.google.com/&output=citation&scisdr=CgUAeQcTENW1hxMVzz0:AAGBfm0AAAAAXuAQ1z1xL1UnQCyE_K6zYCT4Zj0pqJAE&scisig=AAGBfm0AAAAAXuAQ10PHS6gE-0lKqac-d6itdY-eVqgp&scisf=4&ct=citation&cd=-1&hl=en">
+      <i></i> BibTex
       </a>
     </div>
   </div>
 
+
+
+
   <div class="ui card">
     <div class="content">
-      <div class="header">DropConnect for Model Uncertainty Estimation</div>
+      <div class="header">PointReg: A pointcloud-based network for MRI-Ultrasound prostate registration</div>
       <div class="meta">
       </div>
+      <div class="meta">
+        <span>US Patent (under review)</span>
+      </div>
+	<br>
 	<div class="label">
-	 <img class="ui image" src="./Resources/uncertainty.png">
+	 <img class="ui image" src="./Resources/point1.gif">
       	</div>
       <div class="description">
         <p style="text-align:justify">
-        Popular deep learning models created today produce a point estimate but not an uncertainty value. In classification models, the probability vector obtained at the end of the pipeline (the softmax output) is often 		erroneously interpreted as model confidence. However, a model can be uncertain in its predictions even with a high softmax output. Understanding if the model is under-confident or falsely over-confident can help reasoning about the model.
+        	<br>
+	MRI and US have their specific strengths and weaknesses. MRI scans are of higher quality and resolution, but US is quicker and more easily accessible. What if we have an AI machine that gets the US scan (of prostate, for example), and converts it to its MRI counter-part?
         </p>
 	<p style="text-align:justify">
-	In this project, we introduce <b>"Sampling DropConnect"</b> as a practical method to estimate model uncertainty: what the model doesn't know due to lack of training data.
+	This was the project I worked on during my internship at Siemens. Such a model must be aware of the deformations (both rigid and non-rigid) that happens to the prostate during capturing the US scan.
         </p>
 	<p style="text-align:justify">
-        Joint work with <a href="https://www.hvnguyen.com/"> Hien Van Nguyen</a>.
+        Joint work with <a href="https://www.linkedin.com/in/ali-kamen-3715771">Dr. Ali Kamen</a> and <a href="http://www.tmansi.net/">Dr. Tomasso Mansi</a>.
         </p>
       </div>
     </div>
     <div class="extra content">
       <a class="tiny ui left floated button" href="https://github.com/amobiny/Apoptosis_Project">
-      <i></i> CODE
+      <i></i> Code
       </a>
     </div>
   </div>
+
+
+  <div class="ui card">
+    <div class="content">
+      <div class="header">Meta-learning for Domain Adaptation in Lung cancer screening</div>
+      <div class="meta">
+      </div>
+      <div class="meta">
+        <span>IEEE Transactions in Medical Imaging</span>
+      </div>
+	<br>
+	<div class="label">
+	 <img class="ui image" src="./Resources/meta.png">
+      	</div>
+      <div class="description">
+        <p style="text-align:justify">
+        	<br>
+		In medical imaging, images acquired at different sites can differ significantly in their data distribution, due to varying scanners, imaging protocols or patient cohorts, thus each new hospital can be regarded as a new domain.
+        </p>
+	<p style="text-align:justify">
+	We proposed a meta-learning approach with simulated domain shift for adapting a lung nodule classifier to never-seen-before data distribution using only a few annotated samples.
+        </p>
+	<p style="text-align:justify">
+        Joint work with <a href="https://www.hvnguyen.com/">HULA Team</a>.
+        </p>
+      </div>
+    </div>
+    <div class="extra content">
+      <a class="tiny ui left floated button" href="https://github.com/amobiny/Apoptosis_Project">
+      <i></i> Code
+      </a>
+    </div>
+  </div>
+
+
 
 </div>
 
@@ -653,7 +705,10 @@ very padded segment">
         	<b>Easy-TensorFlow</b> is an open source project which is aimed to provide simple and ready-to-use tutorials for TensorFlow. 
 		</p>
 		<p style="text-align:justify">
-		This project has been GitHub trending repository of the month and currentlu has more than 2.5K followers on GitHub.
+		This project has been GitHub trending repository of the month and currently has more than 2.8K followers on GitHub.
+		</p>
+		<p style="text-align:justify">
+		We also publish the codes, slides and videos of our workshops on our <a href="https://www.easy-tensorflow.com/">website.</a> 
 		</p>
 	<p style="text-align:justify">
         Joint work with <a href="https://www.linkedin.com/in/jahandar-jahanipour/">Jahandar Jahanipour</a> and <a href="http://www2.egr.uh.edu/~mnajaria/index.html">Mohammad Najarian</a>.
@@ -671,17 +726,18 @@ very padded segment">
   </div>
   <div class="ui card">
     <div class="content">
-      <div class="header">Semantic Segmentation of the Mouse Brain</div>
+      <div class="header">DV-Net for Large-scale Neurovascular Reconstruction</div>
       <div class="meta">
       </div>
 	<div class="label">
 	<br>
-	 <img class="ui image" src="./Resources/seg.png">
+	 <img class="ui image" src="./Resources/dvnet.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
 	<br>
-        In this research, we designed and implemented a novel fully denesly connected 3D convolutional network to model the cellular and vascular structure in the mouse brain.
+        Densely packed cells combined with interconnected microvas-cular networks are a challenge for current segmentation algorithms. Themassive size of high-throughput microscopy data necessitates fast and largely scalable algorithms. 
+	We investigate a pipeline tosegment and analyze the microstructure of the whole mouse brain.
  	</p>
 
 	<p style="text-align:justify">
@@ -691,13 +747,15 @@ very padded segment">
       </div>
     </div>
     <div class="extra content">
-      <a class="tiny ui left floated button" href="/PDFs/ir.pdf">
-      <i></i> PDF
+      <a class="tiny ui left floated button" href="https://arxiv.org/pdf/2002.01568.pdf">
+      <i></i> Paper
       </a>
       <a class="tiny ui left floated button" href="https://github.com/amobiny/3D_Image_Segmentation">
-      CODE
+      Code
       </a>
-              
+        <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:lHp_R4DBC18J:scholar.google.com/&output=citation&scisdr=CgUAeQcTENW1hxDMAuA:AAGBfm0AAAAAXuPJGuDwVX12fz1-ajeo2iKBg_DfNKG9&scisig=AAGBfm0AAAAAXuPJGhdzTZxJEuawquC00zcy2TOZwloe&scisf=4&ct=citation&cd=-1&hl=en">
+      <i></i> BibTex
+      </a>    
         
 
     </div>
@@ -705,92 +763,93 @@ very padded segment">
 
   <div class="ui card">
     <div class="content">
-      <div class="header">Text-Independent Speaker Verification Using Long Short-Term Memory Networks</div>
+      <div class="header">Online Learning-Based Channel Feedback for MU-MIMO in Wireless LANs</div>
 
       <div class="meta">
-        <span>ArXiv 2018</span>
+        <span>ICNP 2020</span>
       </div>
 	<div class="label">
-	 <img class="ui image" src="./Resources/speaker.png">
+	 <img class="ui image" src="./Resources/dnn_ae.png">
       	</div>
+	<br>
       <div class="description">
         <p style="text-align:justify">
-        In this paper, an architecture based on Long Short-Term Memory Networks has been proposed for the text-independent scenario which is aimed to capture the
-	temporal speaker-related information by operating over traditional speech features. An LSTM architecture is trained to create a discrimination space
-	for validating the match and non-match pairs for speaker verification.
+		We developed a deep neural network autoencoder model which is capable of significantly lowering the airtime overhead for MU-MIMO while preserving its backward compatibility with incumbent Wi-Fi client devices. We have implemented LB-SciFi on a wireless testbed and evaluated its performance in indoor wireless environments.
         </p>
         <p style="text-align:justify">
-        Joint work with <a href="http://www2.egr.uh.edu/~mnajaria/index.html">Mohammad Najarian</a>.
+        Joint work with <a href="https://www.linkedin.com/in/pedram-kheirkhah-4a819354/">Pedram Kheirkhah</a>.
         </p>
 
       </div>
     </div>
-    <div class="extra content">
-        
-          <a class="tiny ui left floated button" href="https://arxiv.org/pdf/1805.00604.pdf">
-            </i> PDF
-          </a>
-          <a class="tiny ui left floated button" href="https://github.com/amobiny/NTM_tensorflow">
-            </i> CODE
-          </a>
-          <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:XMgcTnq3gQwJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAW5hdt6jsWzNQ3zp7W0oauIHKAo5XXIKL&scisf=4&ct=citation&cd=-1&hl=en">
-            </i> BibTex
-          </a>
-        
+    <div class="extra content">        
     </div>
   </div>
 
 
   <div class="ui card">
     <div class="content">
-      <div class="header">Semantic Segmentation of Organs from CT Scans</div>
+      <div class="header">Bolt-ball Joint Looseness Detection with MANN</div>
       <div class="meta">
       </div>
+      <div class="meta">
+        <span>Structural Health Monitoring 2020</span>
+      </div>
 	<div class="label">
-	 <img class="ui image" src="./Resources/organ_seg.png">
+	 <img class="ui image" src="./Resources/furui.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
-        We're working on a novel 3D fully-convolutional network for automatic segmentation of anatomical structures on 3D CT images.
-        <p style="text-align:justify">
- 	The proposed architecture accomplishes an end-to-end, voxel-wise multiple-class 
-	classification to map each voxel in a CT image directly to an anatomical label using very few samples. This is often a necessity in biomedical domain where data collection and annotation is expensive and time-consuming.
+	We developed a novel percussion method using the Mel-frequency cepstral coefficient and the memory-augmented neural network (MANN) for the detection of multi-bolt looseness for with higher accuracy using only the sound signals from the bolts! 
         </p>
 	<p style="text-align:justify">
-        Joint work with <a href="https://www.mdanderson.org/">MD Anderson Cancer Center</a>.
+        Joint work with <a href="https://www.researchgate.net/profile/Furui_Wang2">Furui Wang</a>.
         </p>
       </div>
     </div>
     <div class="extra content">
-      <a class="tiny ui left floated button" href="https://github.com/amobiny/CT_Semantic_Segmentation">
-      <i></i> CODE
+      <a class="tiny ui left floated button" href="./PDFs/SHM.pdf">
+      <i></i> Paper
+      </a>
+      <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:CRFicwLPo2oJ:scholar.google.com/&output=citation&scisdr=CgUAeQcTENW1hxDNbUU:AAGBfm0AAAAAXuPIdUXkkuLPNWwxOtkOcP4fAODpiYPK&scisig=AAGBfm0AAAAAXuPIdcb0m8IYQYupVvoayGTqZvTF1R2k&scisf=4&ct=citation&cd=-1&hl=en">
+      <i></i> BibTex
       </a>
     </div>
   </div>
 
   <div class="ui card">
     <div class="content">
-      <div class="header">DropConnect for Model Uncertainty Estimation</div>
+      <div class="header">DECAPS for Radiologist-Level COVID-19 Detection</div>
       <div class="meta">
       </div>
+      <div class="meta">
+        <span>ArXiv 2020</span>
+      </div>
 	<div class="label">
-	 <img class="ui image" src="./Resources/uncertainty.png">
+	 <img class="ui image" src="./Resources/covid.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
-        Popular deep learning models created today produce a point estimate but not an uncertainty value. In classification models, the probability vector obtained at the end of the pipeline (the softmax output) is often 		erroneously interpreted as model confidence. However, a model can be uncertain in its predictions even with a high softmax output. Understanding if the model is under-confident or falsely over-confident can help reasoning about the model.
+        We present Detail Oriented Capsule Networks (DECAPS), a unique capsule network architecture that is meant to mimic the complex behaviors of radiologists in the COVID-19 CT classification task.
         </p>
 	<p style="text-align:justify">
-	In this project, we introduce <b>"Sampling DropConnect"</b> as a practical method to estimate model uncertainty: what the model doesn't know due to lack of training data.
+	We compared its performance to the three collaborating radiologists, showing that it outperformed all of them in a high-quality subset of our test set images.
         </p>
 	<p style="text-align:justify">
-        Joint work with <a href="https://www.hvnguyen.com/"> Hien Van Nguyen</a>.
+        Joint work with <a href="https://www.hvnguyen.com/"> HULA Team</a>.
         </p>
       </div>
     </div>
     <div class="extra content">
-      <a class="tiny ui left floated button" href="https://github.com/amobiny/Apoptosis_Project">
-      <i></i> CODE
+      <a class="tiny ui left floated button" href="https://arxiv.org/pdf/2004.07407.pdf">
+      <i></i> Paper
+      </a>
+      <a class="tiny ui left floated button" href="https://github.com/amobiny/DECAPS_for_COVID19">
+      <i></i> Code
+      </a>
+      </a>
+      <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:5CtZri3gW4gJ:scholar.google.com/&output=citation&scisdr=CgUAeQcTENW1hxDJ-QQ:AAGBfm0AAAAAXuPM4QQWZLnPY8NY8pjvmB_7nhd2zeo1&scisig=AAGBfm0AAAAAXuPM4cq020qHpZLc_3OkCtF5b8UCoPKU&scisf=4&ct=citation&cd=-1&hl=en">
+      <i></i> BibTex
       </a>
     </div>
   </div>
@@ -805,7 +864,7 @@ very padded segment">
 
 <div class="ui stripe very padded vertical segment">
 
-Last updated May, 2020.
+Last updated June, 2020.
 
 </div>
 
