@@ -73,26 +73,27 @@ very padded segment">
       <div class="column">
         <div class="ui left aligned container" style="font-size: 15">
 
-          <h2 class="ui center aligned header">Bio</h2>
+          <h2 class="ui center aligned header">About</h2>
         <p style="text-align:justify">
     Hello Everyone!
 	<br>
-            	<br>
-
 	I am Aryan, a Senior Computer Vision Algorithm Engineer in <a href="https://www.ambarella.com/">Ambarella</a>'s
             algorithm team, based in Sunnyvale, California. I work on designing computer vision algorithms required 
 			for various levels of automations in self-driving cars.
             Previously, I interned at <a href="https://www.siemens-healthineers.com/en-us/">SIEMENS</a>
-            and <a href="https://www.eigencontrol.com/">EigenControl</a> and worked on different machine
+            and <a href="https://www.eigencontrol.com/">EIGENCONTROL</a> and worked on many different machine
             learning projects.
 <br>
 
             I received my Ph.D. from the University of Houston in 2020 where I worked as a research assistant
             at <a href="https://www.hvnguyen.com/">HULA Lab</a> and
             fellow at the Center for Advanced Computing and Data Science (CACDS).
-My research was mainly focused on Machine Learning and its
+
+<br>
+
+My research is mainly focused on Machine Learning, Deep Learning, Reinforcement Learning and their
             applications in Computer Vision and Medical Image Processing. I’m also interested in
-            various inference methods, neural network architectures including attention and memory,
+            various inference methods, neural net architectures including attention and memory,
             and in everything that can be described as “machine reasoning”.
 <br>
 
@@ -103,7 +104,7 @@ I've also worked on several open source and cool side projects
 
           </p>
 
-<!--          <div class="ui hidden divider"></div>-->
+          <div class="ui hidden divider"></div>
                    
 <!--          <h2 class="ui center aligned header">News</h2>-->
 <!--        <p style="text-align:justify">-->
@@ -122,19 +123,6 @@ I've also worked on several open source and cool side projects
 <!--		</ul>  -->
 <!--          </p>-->
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
         </div>
       </div>
@@ -297,86 +285,40 @@ I've also worked on several open source and cool side projects
 
 <div class="ui centered cards">
 
-
   <div class="ui card">
     <div class="content">
-      <div class="header">Trans-Caps: Transformer Capsule Networks with Self-attention Routing</div>
+      <div class="header">Analyzing neural activity of children during video game play</div>
 
       <div class="extra content">
-        <a href="https://openreview.net/pdf?id=BUPIRa1D2J"> OpenReview 2020</a>
+        <a href="https://iopscience.iop.org/journal/1741-2552">Journal of neural engineering</a>
       </div>
 	<br>
 	<div class="label">
-	 <img class="ui image" src="./Resources/capsnet.png">
+	 <img class="ui image" src="./Resources/bci.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
 	<br>
 
-we propose a novel non-iterative routing strategy named self-attention routing (SAR) that computes the
-            agreement between the capsules in one forward pass. SAR accomplishes this by utilizing a learnable
-            inducing mixture of Gaussians (IMoG) to reduce the cost of computing pairwise attention values from quadratic to linear time complexity.
+            Understanding neural activity patterns in the developing brain remains one of the grand challenges in neuroscience. We collected children's neural activity during Minecraft video game playing and analyzed it using deep networks.
+
         </p>
 
         <p style="text-align:justify">
-        Joint work with <a href="https://www.hvnguyen.com/">Hien Van Nguyen</a>.
+        Joint work with <a href="https://www.facebook.com/pg/UHBMIST/posts/"> University of Houston Brain-Machine Interface Systems Team</a>.
         </p>
       </div>
     </div>
     <div class="extra content">
-
-          <a class="tiny ui left floated button" href="https://arxiv.org/pdf/1806.07416.pdf">
+        
+          <a class="tiny ui left floated button" href="https://iopscience.iop.org/article/10.1088/1741-2552/ab1876/pdf">
             </i> Paper
           </a>
-          <a class="tiny ui left floated button" href="https://scholar.googleusercontent.com/scholar.bib?q=info:aV1CfOQgUmMJ:scholar.google.com/&output=citation&scisdr=CgXNg21SENfOt3gM-to:AAGBfm0AAAAAYfcK4tpnxhCDIIu1NNl1jak1NXTxwcLv&scisig=AAGBfm0AAAAAYfcK4mA4Op-liJwn8T2UaOahkmb3Prg9&scisf=4&ct=citation&cd=-1&hl=en">
-            </i> BibTex
+           <a class="tiny ui left floated button" href="https://www.egr.uh.edu/news/201508/video-minecraft-playing-kids-contribute-groundbreaking-brain-research-uh-engineering">
+            </i> Project Link
           </a>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-<!--  <div class="ui card">-->
-<!--    <div class="content">-->
-<!--      <div class="header">Analyzing neural activity of children during video game play</div>-->
-
-<!--      <div class="extra content">-->
-<!--        <a href="https://iopscience.iop.org/journal/1741-2552">Journal of neural engineering</a>-->
-<!--      </div>-->
-<!--	<br>-->
-<!--	<div class="label">-->
-<!--	 <img class="ui image" src="./Resources/bci.png">-->
-<!--      	</div>-->
-<!--      <div class="description">-->
-<!--        <p style="text-align:justify">-->
-<!--	<br>-->
-
-<!--            Understanding neural activity patterns in the developing brain remains one of the grand challenges in neuroscience. We collected children's neural activity during Minecraft video game playing and analyzed it using deep networks.-->
-
-<!--        </p>-->
-
-<!--        <p style="text-align:justify">-->
-<!--        Joint work with <a href="https://www.facebook.com/pg/UHBMIST/posts/"> University of Houston Brain-Machine Interface Systems Team</a>.-->
-<!--        </p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="extra content">-->
-<!--        -->
-<!--          <a class="tiny ui left floated button" href="https://iopscience.iop.org/article/10.1088/1741-2552/ab1876/pdf">-->
-<!--            </i> Paper-->
-<!--          </a>-->
-<!--           <a class="tiny ui left floated button" href="https://www.egr.uh.edu/news/201508/video-minecraft-playing-kids-contribute-groundbreaking-brain-research-uh-engineering">-->
-<!--            </i> Project Link-->
-<!--          </a>-->
-<!--    </div>-->
-<!--  </div>-->
 
 
   
