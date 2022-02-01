@@ -1,7 +1,7 @@
 
 <!-- saved from url=(0035)https://theory.stanford.edu/~klewi/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Aryan Mobiny - Houston Ubiquitous Learning Algorithms (HULA) Laboratory</title>
+	<title>Aryan Mobiny</title>
 
   <meta name="viewport" content="width=device-width">
   <meta name="viewport" content="initial-scale=1.0">
@@ -38,10 +38,10 @@ very padded segment">
       <img class="ui small circular bordered image" src="./Resources/aryan.png" style="margin-right: 1%;">
       <div class="content">
         Aryan Mobiny
-        <div class="sub header">Senior Computer Vision Algorithm Engineer</div>
+        <div class="sub header">ML Scientist - Always a learner</div>
         <div class="sub header" >aryan.mobiny at gmail.com</div>
 		<a href="https://scholar.google.com/citations?user=PFf8g_8AAAAJ&hl=en&oi=ao"><img class="ui image" src="./Resources/gslogo.png" title="Google Scholar"
-		style="float: left; width: 30px; height: 30px; margin-left: 25%; margin-bottom: 0.5em;; margin-top: 2%;"></a>
+		style="float: left; width: 30px; height: 30px; margin-left: 20%; margin-bottom: 0.5em;; margin-top: 2%;"></a>
 
 		<a href="https://github.com/amobiny"><img class="ui image" title="GitHub"
 		src="./Resources/githublogo.png"
@@ -80,23 +80,25 @@ very padded segment">
             	<br>
 
 	I am Aryan, a Senior Computer Vision Algorithm Engineer in <a href="https://www.ambarella.com/">Ambarella</a>'s
-            algorithm team, based in Sunnyvale, California. I work on designing computer vision algorithms required 
-			for various levels of automations in self-driving cars.
+            algorithm team, based in Santa Clara, California. and design computer vision algorithms needed for autonomous driving capability
+			, such as video object segmentation and detection, multi-object tracking, multi-sensor fusion.
             Previously, I interned at <a href="https://www.siemens-healthineers.com/en-us/">SIEMENS</a>
             and <a href="https://www.eigencontrol.com/">EigenControl</a> and worked on different machine
             learning projects.
 <br>
+            	<br>
 
             I received my Ph.D. from the University of Houston in 2020 where I worked as a research assistant
             at <a href="https://www.hvnguyen.com/">HULA Lab</a> and
             fellow at the Center for Advanced Computing and Data Science (CACDS).
 My research was mainly focused on Machine Learning and its
-            applications in Computer Vision and Medical Image Processing. I’m also interested in
-            various inference methods, neural network architectures including attention and memory,
-            and in everything that can be described as “machine reasoning”.
+            applications in Computer Vision and Medical Image Processing with less label and imperfect data.
 <br>
+            	<br>
 
-I've also worked on several open source and cool side projects
+I’m interested in
+            various inference methods, neural network architectures including attention and memory,
+            and in everything that can be described as “machine reasoning”. I've also worked on several open source and cool side projects
             (find them at the bottom of this page). I am always looking for exciting research
             and professional opportunities, so feel free to get in touch. To find more information
             about my research topics and other experiences, see my <a href="./PDFs/aryan_mobiny_resume.pdf">Resume</a>.
@@ -157,7 +159,7 @@ I've also worked on several open source and cool side projects
                   Senior Computer Vision Algorithm Engineer at Ambarella, Sunnyvale, CA
                 </div>
                 <div class="extra text">
-                  Worked with <a href="https://www.linkedin.com/in/ali-kamen-3715771">Hua Lin</a>.
+                  Worked in Algorithm team with <a href="https://www.linkedin.com/in/ali-kamen-3715771">Hua Lin</a> and <a href="https://www.linkedin.com/in/hengyang-lu-b8b96a55/">Hengyang Lu</a>.
                 </div>
               </div>
             </div>
@@ -221,7 +223,7 @@ I've also worked on several open source and cool side projects
               </div>
               <div class="content">
                 <div class="date">
-                  Sep. 2015 - Present
+                  Sep. 2015 - Oct. 2020
                 </div>
                 <div class="summary">
                   ECE Ph.D. student at the University of Houston
@@ -307,7 +309,7 @@ I've also worked on several open source and cool side projects
       </div>
 	<br>
 	<div class="label">
-	 <img class="ui image" src="./Resources/capsnet.png">
+	 <img class="ui image" src="./Resources/transcaps.png">
       	</div>
       <div class="description">
         <p style="text-align:justify">
