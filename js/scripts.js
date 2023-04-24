@@ -1,15 +1,3 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the scripts associated with the single-page
-    portfolio website.
-*/
-
 (function($) {
 
     // Show current year
@@ -62,17 +50,17 @@
         // Create each timeline block
         $userContent.each(function() {
             $(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
-        });
 
-        // Add icons to each block
-        $this.find('.vtimeline-point').each(function() {
-            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
-        });
+            // Add icon to block
+            $(this).parent().prepend('<div class="vtimeline-icon"><img src="" alt="Job Thumbnail" class="job-thumbnail"></div>');
 
-        // Add dates to the timeline if exists
-        $this.find('.vtimeline-content').each(function() {
+            // Add thumbnail to icon
+            var thumbnailSrc = $(this).data("thumbnail");
+            $(this).find(".job-thumbnail").attr("src", thumbnailSrc);
+
+            // Add date to block
             var date = $(this).data('date');
-            if (date) { // Prepend if exists
+            if (date) {
                 $(this).parent().prepend('<span class="vtimeline-date">'+date+'</span>');
             }
         });
